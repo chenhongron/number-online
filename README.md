@@ -2,4 +2,9 @@
 在线直播（心跳检查、人数推送）
 
 本功能在上线运行，负载上千并发运行良好。
-使用第三方中间件workerman，该文件是symfony框架下的一个command
+使用第三方中间件workerman，该文件是symfony框架下的command
+
+当然，你也可以composer WM ：
+composer require workerman/workerman
+
+启动 app/console live:number-online start

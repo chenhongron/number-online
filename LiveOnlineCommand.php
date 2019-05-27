@@ -1,6 +1,6 @@
 <?php
 namespace Topxia\WebBundle\Command;
-require_once( dirname(__FILE__) . '/../../../../vendor_user/workerman/vendor/autoload.php');
+require_once( dirname(__FILE__) . '/workerman/vendor/autoload.php');
 
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
