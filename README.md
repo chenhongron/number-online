@@ -7,6 +7,8 @@
 
 当然，你也可以composer WM ：
   composer require workerman/workerman
+  
+之后在client端进行通信 ws = new WebSocket("ws://127.0.0.1:8680");
 
 最后在symfony环境下启动它：
   app/console live:number-online start
